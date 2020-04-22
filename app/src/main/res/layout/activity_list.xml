@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListActivity">
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:focusable="false"
+        android:textAlignment="center"
+        android:text="Jiawei Gao"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:id="@+id/send_request"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="80dp"
+        android:text="Send Request"
+        app:layout_constraintEnd_toStartOf="@+id/back"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="Back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.859"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/item0"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="2dp"
+        android:focusable="false"
+        android:gravity="center"
+        android:text="item_0"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/send_request" />
+
+    <Button
+        android:id="@+id/item0b"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/item0"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:text="Open"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/item0"
+        app:layout_constraintTop_toBottomOf="@+id/back" />
+
+    <EditText
+        android:id="@+id/item1"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="2dp"
+        android:focusable="false"
+        android:gravity="center"
+        android:text="item_0"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/item0" />
+
+    <Button
+        android:id="@+id/item1b"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/item0"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:text="Open"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/item1"
+        app:layout_constraintTop_toBottomOf="@+id/item0b" />
+
+    <EditText
+        android:id="@+id/item2"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="2dp"
+        android:focusable="false"
+        android:gravity="center"
+        android:text="item_0"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/item1" />
+
+    <Button
+        android:id="@+id/item2b"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/item0"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:text="Open"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/item1"
+        app:layout_constraintTop_toBottomOf="@+id/item1b" />
+
+    <EditText
+        android:id="@+id/item3"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="2dp"
+        android:focusable="false"
+        android:gravity="center"
+        android:text="item_0"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/item2" />
+
+    <Button
+        android:id="@+id/item3b"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/item0"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:text="Open"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/item2"
+        app:layout_constraintTop_toBottomOf="@+id/item2b" />
+
+    <EditText
+        android:id="@+id/item4"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="2dp"
+        android:focusable="false"
+        android:gravity="center"
+        android:text="item_0"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/item3" />
+
+    <Button
+        android:id="@+id/item4b"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/item0"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:text="Open"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/item3"
+        app:layout_constraintTop_toBottomOf="@+id/item3b" />
+
+    <EditText
+        android:id="@+id/item5"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="2dp"
+        android:focusable="false"
+        android:gravity="center"
+        android:text="item_0"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/item4" />
+
+    <Button
+        android:id="@+id/item5b"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/item0"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:text="Open"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/item4"
+        app:layout_constraintTop_toBottomOf="@+id/item4b" />
+
+    <EditText
+        android:id="@+id/item6"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="2dp"
+        android:focusable="false"
+        android:gravity="center"
+        android:text="item_0"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/item5" />
+
+    <Button
+        android:id="@+id/item6b"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/item0"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:text="Open"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/item5"
+        app:layout_constraintTop_toBottomOf="@+id/item5b" />
+
+    <EditText
+        android:id="@+id/item7"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="2dp"
+        android:focusable="false"
+        android:gravity="center"
+        android:text="item_0"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/item6" />
+
+    <Button
+        android:id="@+id/item7b"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/item0"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:text="Open"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/item6"
+        app:layout_constraintTop_toBottomOf="@+id/item6b" />
+
+    <EditText
+        android:id="@+id/item8"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="2dp"
+        android:focusable="false"
+        android:gravity="center"
+        android:text="item_0"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/item7" />
+
+    <Button
+        android:id="@+id/item8b"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/item0"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:text="Open"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/item7"
+        app:layout_constraintTop_toBottomOf="@+id/item7b" />
+
+    <EditText
+        android:id="@+id/item9"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="2dp"
+        android:focusable="false"
+        android:gravity="center"
+        android:text="item_0"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/item8" />
+
+    <Button
+        android:id="@+id/item9b"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/item0"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:text="Open"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/item8"
+        app:layout_constraintTop_toBottomOf="@+id/item8b" />
+
+
+</android.support.constraint.ConstraintLayout>

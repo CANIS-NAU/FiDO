@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/login_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="39dp">
+
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_alignWithParentIfMissing="false"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            android:background="#ffffff"
+            android:src="@mipmap/logo" />
+
+        <EditText
+            android:id="@+id/login_edit_account"
+            android:layout_width="400dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/logo"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="41dp"
+            android:drawableLeft="@android:drawable/ic_menu_myplaces"
+            android:hint="User Name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/login_edit_pwd"
+            android:layout_width="400dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/login_edit_account"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:drawableLeft="@android:drawable/ic_lock_idle_lock"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/login_edit_pwd"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:background="#00BFA5"
+            android:text="Login"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/signUp"
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/login"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="12dp"
+            android:background="#00BFA5"
+            android:text="Sign Up"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btCPassword"
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/signUp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="12dp"
+            android:background="#00BFA5"
+            android:text="Change Password"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

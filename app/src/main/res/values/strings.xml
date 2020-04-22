@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FiDo</string>
+    <string name="title_activity_priority">priority</string>
+    <string name="title_activity_html_view">htmlView</string>
+</resources>
